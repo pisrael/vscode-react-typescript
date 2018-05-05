@@ -1,9 +1,9 @@
 {
   "name": "vscode-react-typescript",
   "version": "1.0.13",
-  "description": "Code snippets for react in typescript",
-  "displayName": "Typescript React code snippets",
-  "publisher": "infeng",
+  "description": "Code snippets for react in typescript with JSS",
+  "displayName": "Typescript React + JSS code snippets",
+  "publisher": "pisrael",
   "icon": "images/react.png",
   "galleryBanner": {
     "theme": "light"
@@ -20,11 +20,12 @@
   ],
   "keywords": [
     "react",
+    "jss",
     "vscode",
     "typescript",
     "vscode-extension"
   ],
-  "author": "infeng",
+  "author": "pisrael",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/infeng/vscode-react-typescript/issues"
