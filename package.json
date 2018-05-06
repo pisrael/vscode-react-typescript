@@ -3,7 +3,7 @@
   "version": "0.1",
   "description": "Code snippets for react in typescript with JSS",
   "displayName": "Typescript React + JSS code snippets",
-  "publisher": "Pedro Israel | MelhorPlano.net",
+  "publisher": "pisrael",
   "icon": "images/react.png",
   "galleryBanner": {
     "theme": "light"
