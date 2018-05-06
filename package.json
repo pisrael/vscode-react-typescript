@@ -1,16 +1,16 @@
 {
-  "name": "vscode-react-typescript",
-  "version": "1.0.13",
+  "name": "vscode-react-typescript-jss",
+  "version": "0.1",
   "description": "Code snippets for react in typescript with JSS",
   "displayName": "Typescript React + JSS code snippets",
-  "publisher": "pisrael",
+  "publisher": "Pedro Israel | MelhorPlano.net",
   "icon": "images/react.png",
   "galleryBanner": {
     "theme": "light"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/infeng/vscode-react-typescript.git"
+    "url": "git+https://github.com/pisrael/vscode-react-typescript-jss"
   },
   "engines": {
     "vscode": "0.10.x"
@@ -28,9 +28,9 @@
   "author": "pisrael",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/infeng/vscode-react-typescript/issues"
+    "url": "https://github.com/pisrael/vscode-react-typescript-jss/issues"
   },
-  "homepage": "https://github.com/infeng/vscode-react-typescript#readme",
+  "homepage": "https://github.com/pisrael/vscode-react-typescript-jss#readme",
   "contributes": {
     "snippets": [
       {
