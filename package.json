@@ -1,6 +1,6 @@
 {
   "name": "vscode-react-typescript-jss",
-  "version": "0.1",
+  "version": "0.0.1",
   "description": "Code snippets for react in typescript with JSS",
   "displayName": "Typescript React + JSS code snippets",
   "publisher": "pisrael",
