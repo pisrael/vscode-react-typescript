@@ -35,11 +35,11 @@
 		"body": [
 			"import { Style } from 'jss/css'",
 			"import { ${1:App}Classes } from './index'",
-			"import { JssTheme } from '${2:}/theme'",
+			"import { JssTheme } from '../${2:}theme'",
 			"",
 			"const classes = (theme: JssTheme): ${1:App}Classes<Style> => ({",
 			"   component: {",
-			"       backgroundColor: 'black'",
+			"       width: 'auto'",
 			"   },",
 			"})",
 			"",
