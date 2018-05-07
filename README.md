@@ -51,11 +51,11 @@ Below is a list of all available snippets and the triggers of each one. The **�
 
 | Trigger  | Content |
 | -------: | ------- |
-| `tsrcc→` | `class component skeleton` |
-| `tsjss→` | `component style skeleton` |
-| `tsrcfull→` | `class component skeleton with Props, State, and constructor` |
-| `tsrfc` | `function component skeleton` |
-| `tscntr→` | `react redux container skeleton` |
+| `tsrcc→` | `class component boilerplate` |
+| `tsjss→` | `component style boilerplate` |
+| `tsrcsc→` | `class component boilerplate with Props, State, and constructor` |
+| `tsrfc` | `function component boilerplate` |
+| `tsrcrdx` | `react component with redux boilerplate` |
 | `conc→`  | `class default constructor with props and context` |
 | `cwm→`   | `componentWillMount method` |
 | `ren→`   | `render method` |
