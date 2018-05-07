@@ -30,7 +30,7 @@
 			"export default injectSheet<${1:App}Props>(classes)(${1:})",
 			""
 		],
-		"description": "Create a React Component with JSS classes."
+		"description": "Create a React component with JSS for styling"
 	},
 	"JSS Component Sytle": {
 		"prefix": "tsjss",
@@ -48,7 +48,7 @@
 			"export default classes",
 			""
 		],
-		"description": "Create JSS classes for a Component"
+		"description": "Create JSS classes for a component"
 	},
 	"React Component with State": {
 		"prefix": "tsrcsc",
@@ -89,7 +89,7 @@
 			"export default injectSheet<${1:App}Props>(classes)(${1:})",
 			""
 		],
-		"description": "Create a stateful React Component with typescript with Props, State, and a constructor."
+		"description": "Create a stateful React component"
 	},
 	"React Pure Function Component": {
 		"prefix": "tsrfc",
@@ -120,7 +120,7 @@
 			"export default injectSheet<${1:App}Props>(classes)(${1:})",
 			""
 		],
-		"description": "Create a React Pure Function Component."
+		"description": "Create a react function component"
 	},
 	"React redux container": {
 		"prefix": "tsrcrdx",
@@ -166,73 +166,73 @@
 		"prefix": "conc",
 		"body": [
 			"constructor(props) {",
-			"  super(props)",
-			"  ${1:}",
+			"    super(props)",
+			"    ${1:}",
 			"}"
 		],
-		"description": "Add a constructor in class."
+		"description": "Add a constructor for a React component"
 	},
 	"componentWillMount": {
 		"prefix": "cwm",
 		"body": [
 			"componentWillMount() {",
-			"  ${1:}",
+			"    ${1:}",
 			"}"
 		],
-		"description": "Invoked immediately before mounting occurs. It is called before render()."
+		"description": "Invoked immediately before mounting occurs (called before render)"
 	},
 	"render": {
 		"prefix": "ren",
 		"body": [
 			"render() {",
-			"  return (",
-			"    ${1:}",
-			"  )",
+			"    return (",
+			"      ${1:}",
+			"    )",
 			"}"
 		],
-		"description": "When called, it should examine this.props and this.state and return a single React element."
+		"description": "Render function of a React component"
 	},
 	"componentDidMount": {
 		"prefix": "cdm",
 		"body": [
 			"componentDidMount() {",
-			"  ${1:}",
+			"    ${1:}",
 			"}"
 		],
-		"description": "Invoked immediately after a component is mounted."
+		"description": "Invoked immediately after a component is mounted"
 	},
 	"componentWillReceiveProps": {
 		"prefix": "cwrp",
 		"body": [
 			"componentWillReceiveProps(nextProps: ${1:}) {",
-			"  ${2:}",
+			"    ${2:}",
 			"}"
 		],
-		"description": "Invoked before a mounted component receives new props."
+		"description": "Invoked before a mounted component receives new props"
 	},
 	"shouldComponentUpdate": {
 		"prefix": "scu",
 		"body": [
 			"shouldComponentUpdate(nextProps: ${1:}, nextState) {",
-			"  ${2:}",
+			"    ${2:}",
 			"}"
 		],
-		"description": "Invoked before rendering when new props or state are being received."
+		"description": "Invoked before rendering when new props or state are being received"
 	},
 	"componentWillUpdate": {
 		"prefix": "cwu",
 		"body": [
 			"componentWillUpdate(nextProps: ${1:}, nextState) {",
-			"  ${2:}",
+			"    ${2:}",
 			"}"
 		],
-		"description": "Invoked immediately before rendering when new props or state are being received."
+		"description": "Invoked immediately before rendering when new props or state are being received"
 	},
 	"componentDidUpdate": {
 		"prefix": "cdu",
 		"body": [
 			"componentDidUpdate(prevProps: ${1:}, prevState) {",
-			"  ${2:}",
+			"    ${2:}",
 			"}"
 		],
 		"description": "Invoked immediately after updating occurs. This method is not called for the initial render"
@@ -241,7 +241,7 @@
 		"prefix": "cwum",
 		"body": [
 			"componentWillUnmount() {",
-			"  ${1:}",
+			"    ${1:}",
 			"}"
 		],
 		"description": "Invoked immediately before a component is unmounted and destroyed"
@@ -249,7 +249,9 @@
 	"componentSetState": {
 		"prefix": "sst",
 		"body": [
-			"this.setState(${1:})"
+			"this.setState({",
+			"    ${1:}",
+			"})"
 		],
 		"description": "Performs a shallow merge of nextState into current state"
 	},
@@ -258,13 +260,13 @@
 		"body": [
 			"this.${1:} = this.${1:}.bind(this)"
 		],
-		"description": "bind this in method"
+		"description": "Bind this in method"
 	},
 	"method": {
 		"prefix": "met",
 		"body": [
 			"${1:methodName} = (${2:e}) => {",
-			"  ${3:}",
+			"    ${3:}",
 			"}"
 		],
 		"description": "Create a method"
